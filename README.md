@@ -46,7 +46,7 @@ To get the translation, we can Postman or any web browser and hit this API as fo
     <br/>A list of all [ISO Language Codes](https://datahub.io/core/language-codes/r/0.html) is attached here.
 
 - A sample example is shown here when we hit the route on Postman.
-![](./_images/sample_example.png)
+![](./src/image/Screenshot%20from%202022-04-20%2018-01-32.png)
 
 -Same thing can be done on any web browser by hitting the `GET` request.
 
