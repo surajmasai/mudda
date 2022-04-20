@@ -8,17 +8,15 @@
 - Create a web server with a RESTful API to translate a text from one language to another.
 - For the actual translation, an external service like Google Translate can be used.
 - The source and target language should be definable via the API.
-- In addition, cache (store in Database) translations, in order to avoid repeated hits to the translation API. The
+- In addition, cache (store in cache) translations, in order to avoid repeated hits to the translation API. The
 cache must be persistent!
-- The server should have an extensible architecture. 
-E.g. We may want to change our caching strategy or switch out our
+
 translation service.
 
 ### Tech stack used
 -  `NodeJS` & `ExpressJS` (a flexible Node.js web application framework) as beckend.
 -  `Google translate` as an external service for actual translation.
 -  `node-cache` package for caching.
--  `Jest` to test the APIs.
 
 ## Install Dependencies
 
@@ -33,7 +31,7 @@ npm i
 ## Usage 
 To get the translation, we can Postman or any web browser and hit this API as follow:
 ```
-### http://localhost:8000/translate?sourceText=&targetLanguage=''
+# http://localhost:8000/translate?sourceText=""&targetLanguage=""
 
 
 ```
